@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remnant Website</title>
+    <style>
+        /* Global styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Top section styles */
+        .top-section {
+            background: linear-gradient(to bottom, #4A90E2, #32465D);
+            color: #fff;
+            text-align: center;
+            padding: 40px 0;
+        }
+
+        .logo img {
+            max-width: 200px;
+            height: auto;
+        }
+
+        /* Middle section styles */
+        .middle-section {
+            background: linear-gradient(to bottom, #4D516D, #6B7394);
+            display: flex;
+            justify-content: space-around;
+            padding: 40px 0;
+        }
+
+        .box {
+            background: #fff;
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s ease-in-out;
+        }
+
+        .box:hover {
+            transform: scale(1.05);
+        }
+
+        /* Box color variations */
+        .box:nth-child(1) {
+            background: #6A0572;
+        }
+
+        .box:nth-child(2) {
+            background: #FF6B6B;
+        }
+
+        .box:nth-child(3) {
+            background: #3A86FF;
+        }
+
+        /* Bottom section styles */
+        .bottom-section {
+            background: linear-gradient(to bottom, #3A86FF, #6B7394);
+            text-align: center;
+            padding: 40px 0;
+            color: #fff;
+        }
+
+        /* Footer styles */
+        .footer {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Top section -->
+    <div class="top-section">
+        <div class="logo">
+            <img src="rmnt.png" alt="Remnant Logo">
+        </div>
+    </div>
+
+    <!-- Middle section -->
+    <div class="middle-section">
+        <div class="box">
+            <h2>Teal Box</h2>
+            <p>Description of the Teal Box goes here.</p>
+        </div>
+        <div class="box">
+            <h2>Grey Box</h2>
+            <p>Description of the Grey Box goes here.</p>
+        </div>
+        <div class="box">
+            <h2>Purple Box</h2>
+            <p>Description of the Purple Box goes here.</p>
+        </div>
+    </div>
+
+    <!-- Bottom section -->
+    <div class="bottom-section">
+        <div class="about-us">
+            <h2>About Us</h2>
+            <p>A couple of sentences about our company.</p>
+            <p>Email: example@example.com</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        &copy; 2023 Remnant. All rights reserved.
+    </div>
+</body>
+</html>
