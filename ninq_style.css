@@ -58,8 +58,8 @@ body {
 .box {
     border-radius: 15px;
     width: 60vh;
-    height: 96vh;
-    padding: 5px;
+    height: 100vh;
+    padding: 5px, 0px, 5px;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -114,15 +114,15 @@ body {
     color: #fff;
 }
 
-/*
+
 .about-us {
-    font-family: 'Bai Jamjuree', sans-serif;
-    font-weight: 200;
+    /* font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 200; */
     font-size: 24px;
     color: white;
     text-shadow: 0px 0px 5px #fff;
 }
-*/
+
 
 /* Footer styles */
 .footer {
