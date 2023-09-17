@@ -33,7 +33,7 @@ body {
     font-size: 100px;
     margin: 5px 0;
     color: white;
-    text-shadow: 0px 0px 3px #fff;
+    text-shadow: 0px 0px 0px #fff;
     font-family: 'Bai Jamjuree', sans-serif;
     font-weight: 400;
 }
@@ -43,12 +43,12 @@ body {
     font-weight: 200;
     font-size: 48px;
     color: white;
-    text-shadow: 0px 0px 2px #fff;
+    text-shadow: 0px 0px 0px #fff;
 }
 
 /* Middle section styles */
 .middle-section {
-    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(250, 250, 250));
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(255, 255, 255));
     height: 60vh;
     display: flex;
     justify-content: space-around;
@@ -66,7 +66,7 @@ body {
     align-items: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s ease-in-out;
-    background: linear-gradient(0deg, rgb(245, 245, 245), rgb(250, 250, 250));
+    background: linear-gradient(0deg, rgb(250, 250, 250), rgb(250, 250, 250));
     position: relative;
     overflow: hidden;
 }
@@ -84,7 +84,7 @@ body {
     content: '';
     position: absolute;
     inset: 4px;
-    background: linear-gradient(0deg, rgb(245, 245, 245), rgb(250, 250, 250));
+    background: linear-gradient(0deg, rgb(250, 250, 250), rgb(250, 250, 250));
     border-radius: 130x;
 }
 
@@ -107,7 +107,7 @@ body {
 
 /* Bottom-Middle section styles */
 .bottom-middle-section {
-    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(250, 250, 250));
+    background: linear-gradient(to bottom, rgb(240, 240, 255), rgb(240, 240, 250));
     height: 60vh;
     display: flex;
     justify-content: space-around;
@@ -117,7 +117,7 @@ body {
 /* Bottom section styles */
 .bottom-section {
     background: linear-gradient(to bottom, #41affc, #6483fd, #835efd);
-    height: 30vh;
+    height: 35vh;
     text-align: center;
     padding: 40px 0;
     color: #fff;
