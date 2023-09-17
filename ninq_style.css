@@ -33,7 +33,7 @@ body {
     font-size: 100px;
     margin: 5px 0;
     color: white;
-    text-shadow: 0px 0px 6px #fff;
+    text-shadow: 0px 0px 0px #fff;
     font-family: 'Bai Jamjuree', sans-serif;
     font-weight: 400;
 }
@@ -43,13 +43,13 @@ body {
     font-weight: 200;
     font-size: 48px;
     color: white;
-    text-shadow: 0px 0px 5px #fff;
+    text-shadow: 0px 0px 0px #fff;
 }
 
 /* Middle section styles */
 .middle-section {
     background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(250, 250, 250));
-    height: 80vh;
+    height: 60vh;
     display: flex;
     justify-content: space-around;
     padding: 40px 0;
@@ -58,7 +58,7 @@ body {
 .box {
     border-radius: 15px;
     width: 60vh;
-    height: 80vh;
+    height: 60vh;
     padding: 5px, 0px, 5px;
     display: flex;
     text-align: center;
@@ -105,6 +105,15 @@ body {
     transform: scale(1.05);
 }
 
+/* Bottom-Middle section styles */
+.bottom-middle-section {
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(250, 250, 250));
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+
 /* Bottom section styles */
 .bottom-section {
     background: linear-gradient(to bottom, #41affc, #6483fd, #835efd);
@@ -113,7 +122,6 @@ body {
     padding: 40px 0;
     color: #fff;
 }
-
 
 .about-us {
     font-family: Arial, sans-serif;
