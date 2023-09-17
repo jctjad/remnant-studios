@@ -107,7 +107,7 @@ body {
 
 /* Bottom-Middle section styles */
 .bottom-middle-section {
-    background: linear-gradient(to bottom, rgb(240, 240, 255), rgb(240, 240, 250));
+    background: linear-gradient(to bottom, rgb(245, 245, 245), rgb(245, 245, 245));
     height: 60vh;
     display: flex;
     justify-content: space-around;
@@ -117,7 +117,7 @@ body {
 /* Bottom section styles */
 .bottom-section {
     background: linear-gradient(to bottom, #41affc, #6483fd, #835efd);
-    height: 35vh;
+    height: 32vh;
     text-align: center;
     padding: 40px 0;
     color: #fff;
