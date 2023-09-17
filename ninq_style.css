@@ -48,7 +48,7 @@ body {
 
 /* Middle section styles */
 .middle-section {
-    background: linear-gradient(to bottom, rgb(250, 250, 250), rgb(230, 230, 230));
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(250, 250, 250));
     height: 100vh;
     display: flex;
     justify-content: space-around;
@@ -57,8 +57,8 @@ body {
 
 .box {
     border-radius: 15px;
-    width: 700px;
-    height: 500px;
+    width: 30vh;
+    height: 80vh;
     padding: 5px;
     display: flex;
     text-align: center;
@@ -66,7 +66,7 @@ body {
     align-items: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s ease-in-out;
-    background: linear-gradient(0deg, rgb(44, 43, 43), rgb(66, 64, 64));
+    background: linear-gradient(0deg, rgb(250, 250, 250), rgb(240, 240, 240));
     position: relative;
     overflow: hidden;
 }
@@ -84,7 +84,7 @@ body {
     content: '';
     position: absolute;
     inset: 4px;
-    background: linear-gradient(0deg, rgb(200, 200, 200), rgb(220, 220, 220));
+    background: linear-gradient(0deg, rgb(250, 250, 250), rgb(240, 240, 240));
     border-radius: 130x;
 }
 
@@ -107,10 +107,18 @@ body {
 
 /* Bottom section styles */
 .bottom-section {
-    background: linear-gradient(to bottom, #3A86FF, #6B7394);
+    background: linear-gradient(to bottom, #1cdbfc, #41affc, #6483fd, #835efd, #8e51fe) ;
     text-align: center;
     padding: 40px 0;
     color: #fff;
+}
+
+.about-us {
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 200;
+    font-size: 24px;
+    color: white;
+    text-shadow: 0px 0px 5px #fff;
 }
 
 /* Footer styles */
