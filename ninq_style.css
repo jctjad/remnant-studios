@@ -74,7 +74,7 @@ body {
 .box::before {
     content: '';
     position: absolute;
-    width: 300px;
+    width: 30vh;
     height: 140%;
     background: linear-gradient(#00ccff, #d400d4);
     animation: animate 4s linear infinite;
@@ -126,7 +126,7 @@ body {
 .about-us {
     font-family: Arial, sans-serif;
     font-weight: 0;
-    font-size: 4vh;
+    font-size: 3.3vh;
     color: white;
     text-shadow: 0px 0px 0px #000000;
 }
