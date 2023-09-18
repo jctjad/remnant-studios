@@ -117,9 +117,9 @@ body {
 /* Bottom section styles */
 .bottom-section {
     background: linear-gradient(to bottom, #41affc, #6483fd, #835efd);
-    height: 35vh;
+    height: 32vh;
     text-align: center;
-    padding: 40px 0;
+    padding: 20px 0;
     color: #fff;
 }
 
@@ -135,5 +135,5 @@ body {
 /* Footer styles */
 .footer {
     font-size: 2.5vh;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
