@@ -24,13 +24,13 @@ body {
 
 .logo {
     max-width: 100%;
-    max-height: 600px;
-    width: 600px;
+    max-height: 50vh;
+    width: 50vh;
     filter: drop-shadow(0px 9px 10px #000000);
 }
 
 .logo-title {
-    font-size: 100px;
+    font-size: 8vh;
     margin: 25px 0;
     color: white;
     text-shadow: 0px 0px 0px #fff;
@@ -41,7 +41,7 @@ body {
 .logo-text {
     font-family: 'Bai Jamjuree', sans-serif;
     font-weight: 200;
-    font-size: 48px;
+    font-size: 5vh;
     color: white;
     text-shadow: 0px 0px 0px #fff;
 }
@@ -126,7 +126,7 @@ body {
 .about-us {
     font-family: Arial, sans-serif;
     font-weight: 0;
-    font-size: 44px;
+    font-size: 4vh;
     color: white;
     text-shadow: 0px 0px 0px #000000;
 }
