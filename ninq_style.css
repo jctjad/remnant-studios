@@ -126,45 +126,21 @@ body {
 }
 
 .footer-about,
-.contact-info,
-.social-links {
+.contact-info {
     flex: 1 1 300px;
     margin-bottom: 20px;
 }
 
 .footer-about h3,
-.contact-info h3,
-.social-links h3 {
+.contact-info h3 {
     color: #fff;
     font-size: 1.8rem;
     margin-bottom: 15px;
 }
 
-.contact-info p,
-.social-links ul {
+.contact-info p {
     list-style: none;
     padding: 0;
-}
-
-.social-links ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-
-.social-links ul li {
-    display: inline-block;
-}
-
-.social-links ul li a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.3s ease;
-}
-
-.social-links ul li a:hover {
-    color: #41affc;
 }
 
 .bottom-footer {
@@ -178,4 +154,16 @@ body {
         flex-direction: column;
         text-align: center;
     }
+}
+
+.box > h2 {
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.box > p {
+    font-size: 1.0rem;
+    line-height: 1.5;
+    color: #666;
 }
