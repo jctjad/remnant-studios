@@ -69,19 +69,22 @@ body {
 
 .box > h2 {
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin-bottom: 15px;
     color: #333;
 }
 
-.box > p {
+.box > ul {
     margin-left: auto;
     margin-right: auto;
-    width: 700px;
-    text-align: center;   
-    font-size: 1.0rem;
+    width: 700px; 
+    font-size: 1.2rem;
     line-height: 1.5;
     color: #666;
+}
+
+li {
+    line-height: 3;
 }
 
 /* Bottom-Middle section styles */
@@ -160,10 +163,10 @@ body {
     }
 }
 
-.item2 p:first-of-type {
-    margin-top: 5vh;
+.item1 > ul:first-of-type {
+    margin-top: 8vh;
 }
 
-.item1 p:first-of-type {
-    margin-top: 10vh;
+.item2 > ul:first-of-type {
+    margin-top: 5vh;
 }
