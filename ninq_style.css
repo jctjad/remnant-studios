@@ -69,15 +69,14 @@ body {
 }
 
 .box > h2 {
-    width: 100hv;
     text-align: center;
 }
 
 .box > p {
     margin-left: auto;
     margin-right: auto;
-    width: 500px;
-    text-align: center;
+    width: 700px;
+    text-align: center;   
 }
 
 /* Bottom-Middle section styles */
