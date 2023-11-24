@@ -4,18 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Remnant Website</title>
-    <link rel='stylesheet' href="style.css"></link>
+    <link rel='stylesheet' href="ninq_style.css"></link>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </head>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css"/>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400&display=swap" rel="stylesheet">
 <body>
+    
 
     <!-- Top section -->
     <div class="top-section">
         <div class="centered-content">
             <img src="img/Remnant_Logo_Current.png" class="logo">
-            <h1 class="logo-title">Remnant</h1>
+            <h1 class="logo-title">Remnant Studios</h1>
             <p class="logo-text">Dedicated to the security and integrity of online gaming</p>
         </div>
     </div>
@@ -23,17 +30,25 @@
     <!-- Middle section -->
     <div class="middle-section">
         <div class="box">
-            <h2>Teal Box</h2>
-            <p>Description of the Teal Box goes here.</p>
+            <h2>Anti-AutoClicker</h2>
+            <p>Text about the topic. Text about the topic.Text about the topic.Text about the topic.Text about the topic.Text about the topic.Text about the topic.Text about the topic.</p>
         </div>
         <div class="box">
-            <h2>Grey Box</h2>
-            <p>Description of the Grey Box goes here.</p>
+            <h2>Exploiting and Fraudulant Activity</h2>
+            <p>Text about the topic. Text about the topic.Text about the topic.Text about the topic.Text about the topic.Text about the topic.Text about the topic.Text about the topic.</p>
         </div>
         <div class="box">
-            <h2>Purple Box</h2>
-            <p>Description of the Purple Box goes here.</p>
+            <h2>Alt-Detector</h2>
+            <p>Text about the topic. Text about the topic.Text about the topic.Text about the topic.Text about the topic.Text about the topic.Text about the topic.Text about the topic.</p>
         </div>
+    </div>
+
+    <div class = "bottom-middle-section carousel">
+        <img src="img/Remnant_MentionsByMonth.png" class="carousel-item">
+        <img src="img/Remnant_MentionsByMonth.png" class="carousel-item">
+        <img src="img/Remnant_MentionsByMonth.png" class="carousel-item">
+        <img src="img/Remnant_MentionsByMonth.png" class="carousel-item">
+        <img src="img/Remnant_MentionsByMonth.png" class="carousel-item">
     </div>
 
     <!-- Bottom section -->
@@ -43,11 +58,26 @@
             <p>A couple of sentences about our company.</p>
             <p>Email: example@example.com</p>
         </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            &copy; 2023 Remnant Studios. All rights reserved.
+        </div>
     </div>
 
-    <!-- Footer -->
-    <div class="footer">
-        &copy; 2023 Remnant. All rights reserved.
-    </div>
+
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.carousel').slick({
+                infinite: true,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                dots: true,
+                autoplay: true,
+                draggable: true
+            })
+        })
+    </script>
 </body>
 </html>
