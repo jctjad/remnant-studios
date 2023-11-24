@@ -56,7 +56,7 @@ body {
 
 .box {
     border-radius: 15px;
-    width: 60vh;
+    width: 100vh;
     height: 60vh;
     padding: 5px, 0px, 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -72,7 +72,7 @@ body {
 }
 
 .box > h2 {
-    width: 60vh;
+    width: 100hv;
     text-align: center;
 }
 
@@ -126,14 +126,14 @@ body {
 /* Bottom section styles */
 .bottom-section {
     background: linear-gradient(to bottom, #41affc, #6483fd, #835efd);
-    height: 25vh;
+    height: 26vh;
     text-align: center;
     padding: 20px;
     color: #fff;
 }
 
 .about-us {
-    font-family: Arial, sans-serif;
+    font-family: 'Bai Jamjuree', sans-serif;
     font-weight: 0;
     font-size: 2.5vh;
     color: white;
