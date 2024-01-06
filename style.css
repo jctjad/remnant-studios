@@ -170,3 +170,32 @@ li {
 .item2 > ul:first-of-type {
     margin-top: 5vh;
 }
+
+/* Hide the dropdown list by default */
+.hidden {
+    display: none;
+  }
+  
+  /* Style for the dropdown button */
+  button {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* Style for the dropdown list */
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+  }
+
+  .mainList {
+    list-style: none;
+  }
+
+  .up::before{
+    content: '⮞';
+  }
+
+  .down::before{
+    content: '⮟';
+  }

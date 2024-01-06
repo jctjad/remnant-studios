@@ -31,27 +31,54 @@
     <div class="middle-section grid-container">
         <div class="box item1">
             <h2>Anti-AutoClicker</h2>
-            <ul>
-                <li>
-                    Developed software algorithm to prevent illegal “auto-click” software.
-                </li>
-                <li>
-                    Auto-clicking grants unfair advantages in gaming.
-                </li>
-                <li>
-                    Widely adopted as the most popular anti-autoclicker in the market.
-                </li>
-                <li>
-                    Challenge: Distinguishing manual clicking from auto-clicking.
-                </li>
-                <li>
-                    Goal: Enhance identification through a machine learning model.
-                </li>
+            <ul class="mainList">
+                <div class="dropdown">
+                    <li class="mainElement up" id="mainElement1" onclick="toggleDropdown('dropdownList1', 'mainElement1')">
+                        Developed software algorithm to prevent illegal “auto-click” software.
+                    </li>
+                    <ul id="dropdownList1" class="hidden dropdown-list">
+                        <li>Bullet 1</li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <li class="mainElement up" id="mainElement2" onclick="toggleDropdown('dropdownList2', 'mainElement2')">
+                        Auto-clicking grants unfair advantages in gaming.
+                    </li>
+                    <ul id="dropdownList2" class="hidden dropdown-list">
+                        <li>Bullet 1</li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <li class="mainElement up" id="mainElement3" onclick="toggleDropdown('dropdownList3', 'mainElement3')">
+                      Widely adopted as the most popular anti-autoclicker in the market.
+                    </li>
+                    <ul id="dropdownList3" class="hidden dropdown-list">
+                      <li>Bullet 1</li>
+                    </ul>
+                  </div>
+                  
+                  <div class="dropdown">
+                    <li class="mainElement up" id="mainElement4" onclick="toggleDropdown('dropdownList4', 'mainElement4')">
+                      Challenge: Distinguishing manual clicking from auto-clicking.
+                    </li>
+                    <ul id="dropdownList4" class="hidden dropdown-list">
+                      <li>Bullet 1</li>
+                    </ul>
+                  </div>
+                  
+                  <div class="dropdown">
+                    <li class="mainElement up" id="mainElement5" onclick="toggleDropdown('dropdownList5', 'mainElement5')">
+                      Goal: Enhance identification through a machine learning model.
+                    </li>
+                    <ul id="dropdownList5" class="hidden dropdown-list">
+                      <li>Bullet 1</li>
+                    </ul>
+                  </div>
             </ul>
         </div>
         <div class="box item2">
             <h2>Alt-Detector (WIP)</h2>
-            <ul>
+            <ul class="mainList">
                 <li>
                     Focus: Combatting alternate account usage in gaming.
                 </li>
@@ -103,18 +130,6 @@
     </footer>
 
 
-
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('.carousel').slick({
-                infinite: true,
-                slidesToShow: 2,
-                slidesToScroll: 1,
-                dots: true,
-                autoplay: true,
-                draggable: true
-            })
-        })
-    </script>
+    <script src = "script.js"></script>
 </body>
 </html>
