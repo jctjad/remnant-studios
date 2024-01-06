@@ -27,6 +27,6 @@ function toggleDropdown(dropdownId, elementId) {
     var dropdownList = document.getElementById(dropdownId);
     var dropdownElement = document.getElementById(elementId);
     dropdownList.classList.toggle('hidden');
-    dropdownElement.classList.add('down');
-    dropdownElement.classList.remove('up');
+    dropdownElement.classList.toggle('down');
+    dropdownElement.classList.toggle('up');
   }
