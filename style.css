@@ -192,12 +192,19 @@ li {
     list-style: none;
   }
 
-  .up::before{
-    content: '\2B9E';
+  .mainElement::before{
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font: var(--fa-font-solid)
   }
 
-  .down::before{
-    content: '\2B9F';
+  .up::before{
+    content: "\f0da";
+  }
+
+  .down::before {
+    content: "\f0d7"
   }
 
   .dropdown-list {

@@ -13,16 +13,20 @@ function toggleDropdown(dropdownId, elementId) {
     var dropdownLists = document.querySelectorAll('.dropdown-list');
     var mainElements = document.querySelectorAll('.mainElement');
     dropdownLists.forEach(function(list) {
-        list.classList.add('hidden');
+        if (list.id !== dropdownId) {
+            list.classList.add('hidden');
+        }
     })
     mainElements.forEach(function(list) {
-        list.classList.remove('down');
-        list.classList.add('up');
+        if (list.id !== elementId) {
+            list.classList.remove('down');
+            list.classList.add('up');
+        }
     })
 
     var dropdownList = document.getElementById(dropdownId);
     var dropdownElement = document.getElementById(elementId);
     dropdownList.classList.toggle('hidden');
-    dropdownElement.classList.toggle('down');
-    dropdownElement.classList.toggle('up');
+    dropdownElement.classList.add('down');
+    dropdownElement.classList.remove('up');
   }
