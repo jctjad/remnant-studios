@@ -196,7 +196,7 @@ li {
     display: inline-block;
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
-    font: var(--fa-font-solid)
+    font: var(--fa-font-solid);
   }
 
   .up::before{
