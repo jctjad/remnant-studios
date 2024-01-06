@@ -193,9 +193,9 @@ li {
   }
 
   .up::before{
-    content: '⮞';
+    content: '\2B9E';
   }
 
   .down::before{
-    content: '⮟';
+    content: '\2B9F';
   }
