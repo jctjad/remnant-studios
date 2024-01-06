@@ -199,3 +199,7 @@ li {
   .down::before{
     content: '\2B9F';
   }
+
+  .dropdown-list {
+    margin-left: 20px;
+  }
