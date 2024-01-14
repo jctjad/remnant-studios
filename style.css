@@ -27,6 +27,7 @@ body {
 }
 
 .centered-content {
+    position: relative;
     text-align: center;
     padding: 20px;
     padding-top: 15vh;
