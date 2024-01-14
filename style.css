@@ -29,8 +29,8 @@ body {
 }
 
 .logo-title {
-    font-size: 8vh;
-    margin: 0 0;
+    font-size: 9vh;
+    margin: 2vh 0;
     color: white;
     text-shadow: 0px 0px 0px #fff;
     font-family: 'Bai Jamjuree', sans-serif;
@@ -75,18 +75,18 @@ body {
 
 .box > h2 {
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-bottom: -3vh;
-    color: #333;
+    color: rgb(80, 80, 80);
 }
 
 .box > ul {
     margin-left: auto;
     margin-right: auto;
-    width: 80vh; 
-    font-size: 1.2rem;
+    width: 90vh; 
+    font-size: 1.6rem;
     line-height: 1;
-    color: #666;
+    color: rgb(120, 120, 120);
 }
 
 li {
