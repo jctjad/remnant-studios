@@ -107,14 +107,7 @@ li {
 }
 
 .item1 {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    margin-left: 20px;
-}
-
-.item2 {
-    grid-column-start: 2;
-    grid-column-end: 3;
+    margin-left: 1vw;
 }
 
 /* Footer styles */
