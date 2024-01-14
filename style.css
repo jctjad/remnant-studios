@@ -52,6 +52,7 @@ body {
     padding-bottom: 50px;
     display: flex;
     gap: 20px;
+    font-family: 'Bai Jamjuree', sans-serif;
 }
 
 .middle-section:after {
@@ -77,16 +78,16 @@ body {
     text-align: center;
     font-size: 2rem;
     margin-bottom: -3vh;
-    color: rgb(80, 80, 80);
+    color: rgb(70, 70, 70);
 }
 
 .box > ul {
     margin-left: auto;
     margin-right: auto;
     width: 90vh; 
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     line-height: 1;
-    color: rgb(120, 120, 120);
+    color: rgb(100, 100, 100);
 }
 
 li {
@@ -124,29 +125,34 @@ li {
     justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
+    font-family: 'Bai Jamjuree', sans-serif;
 }
 
 .footer-about,
 .contact-info {
     flex: 1 1 300px;
     margin-bottom: 20px;
+    font-size: 1.4rem;
 }
 
 .footer-about h3,
 .contact-info h3 {
     color: #fff;
-    font-size: 1.8rem;
+    font-size: 3rem;
     margin-bottom: 15px;
+    font-family: 'Bai Jamjuree', sans-serif;
 }
 
 .contact-info p {
     list-style: none;
+    font-size: 2rem;
     padding: 0;
 }
 
 .bottom-footer {
     margin-top: 30px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    font-family: 'Bai Jamjuree', sans-serif;
 }
 
 /* Media query for footer responsiveness */
