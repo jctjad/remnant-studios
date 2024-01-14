@@ -10,7 +10,7 @@ body {
 .top-section {
     display: flex;
     background: linear-gradient(to bottom, #1cdbfc, #41affc, #6483fd, #835efd, #8e51fe) ;
-    height: 100vh;
+    min-height: 100vh;
     align-items: flex-start;
     justify-content: center;
 }
