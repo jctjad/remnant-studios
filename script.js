@@ -5,25 +5,20 @@ $(document).ready(function(){
         slidesToScroll: 1,
         dots: true,
         autoplay: true,
-        draggable: true
+        draggable: true,
+        responsive: [
+        {
+            breakpoint: 700,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+        ]
     })
 })
 
 function toggleDropdown(dropdownId, elementId) {
-    var dropdownLists = document.querySelectorAll('.dropdown-list');
-    var mainElements = document.querySelectorAll('.mainElement');
-    dropdownLists.forEach(function(list) {
-        if (list.id !== dropdownId) {
-            list.classList.add('hidden');
-        }
-    })
-    mainElements.forEach(function(list) {
-        if (list.id !== elementId) {
-            list.classList.remove('down');
-            list.classList.add('up');
-        }
-    })
-
     var dropdownList = document.getElementById(dropdownId);
     var dropdownElement = document.getElementById(elementId);
     dropdownList.classList.toggle('hidden');
