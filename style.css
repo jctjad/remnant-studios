@@ -69,12 +69,6 @@ body {
     min-height: 45vh;
 }
 
-@media screen and (max-width: 600px) { 
-    .box {
-        flex: 100%;
-    }
-}
-
 .box > h2, .box > p {
     z-index: 1;
 }
