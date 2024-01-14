@@ -66,6 +66,7 @@ body {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.2s ease-in-out;
     background: linear-gradient(0deg, rgb(250, 250, 250), rgb(250, 250, 250));
+    min-height: 45vh;
 }
 
 @media screen and (max-width: 600px) { 
@@ -170,7 +171,7 @@ li {
 }
 
 .item1 > ul:first-of-type {
-    margin-top: 8vh;
+    margin-top: 5vh;
 }
 
 .item2 > ul:first-of-type {
