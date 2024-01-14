@@ -8,7 +8,7 @@ $(document).ready(function(){
         draggable: true,
         responsive: [
         {
-            breakpoint: 700,
+            breakpoint: 1000,
             settings: {
                 slidesToShow: 1
             }
