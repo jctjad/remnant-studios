@@ -43,7 +43,7 @@ body {
 
 .logo-title {
     font-size: 10vh;
-    margin: 4vh 0;
+    margin: 5vh 0;
     color: rgb(255, 255, 255);
     font-family: 'Bai Jamjuree', sans-serif;
     font-weight: 400;
@@ -56,6 +56,7 @@ body {
     font-size: 5vh;
     color: rgb(255, 255, 255);
     text-shadow: 2px 3px 0px rgb(100, 100, 100);
+    margin-top: -2vh;
 }
 
 /* Middle section styles */
