@@ -43,12 +43,11 @@ body {
 
 .logo-title {
     font-size: 10vh;
-    margin: 2vh 0;
+    margin: 4vh 0;
     color: rgb(255, 72550, 255);
     text-shadow: 0px 0px 50px rgb(240, 240, 240);
     font-family: 'Bai Jamjuree', sans-serif;
     font-weight: 400;
-    /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
 }
 
 .logo-text {
@@ -56,8 +55,7 @@ body {
     font-weight: 200;
     font-size: 5vh;
     color: rgb(255, 255, 255);
-    text-shadow: 0px 0px 5px rgb(240, 240, 240);
-    /*text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
+    text-shadow: 0px 0px 5px rgb(240, 240, 240)
 }
 
 /* Middle section styles */
@@ -132,7 +130,7 @@ li {
     background-color: rgba(31, 31, 31, 0.5);
     color: #fff;
     padding: 40px 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .footer-background {
@@ -147,17 +145,17 @@ li {
 
 .footer-content {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: flex-start;
-    flex-wrap: wrap;
     font-family: 'Bai Jamjuree', sans-serif;
     position: relative;
     z-index: 1;
+    margin-left: 1vw;
 }
 
 .footer-about,
 .contact-info {
-    flex: 1 1 300px;
+    width: 100%;
     margin-bottom: 20px;
     font-size: 1.4rem;
 }
@@ -181,14 +179,14 @@ li {
     font-size: 1.4rem;
     font-family: 'Bai Jamjuree', sans-serif;
     position: relative;
+    margin-left: 1vw;
     z-index: 1;
 }
 
 /* Media query for footer responsiveness */
 @media screen and (max-width: 768px) {
     .footer-content {
-        flex-direction: column;
-        text-align: center;
+        align-items: center;
     }
 }
 
@@ -238,4 +236,13 @@ li {
 
   .dropdown-list {
     margin-left: 20px;
+  }
+
+  .mail::before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font: var(--fa-font-solid);
+    content: "\f0e0";
+    padding-right: 10px;
   }
