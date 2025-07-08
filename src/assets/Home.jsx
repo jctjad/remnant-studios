@@ -1,6 +1,4 @@
-import RotatingRiWord from '../components/RotatingRiWord';
 import { useState } from 'react';
-import OpportunitiesNetwork from '../components/OpportunitiesNetwork';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
